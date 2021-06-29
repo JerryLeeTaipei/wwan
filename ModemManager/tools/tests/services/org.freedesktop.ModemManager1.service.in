@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.freedesktop.ModemManager1
-Exec=@abs_top_builddir@/tools/tests/test-wrapper.sh

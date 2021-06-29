@@ -1,9 +1,0 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: ModemManager
-Description: Common headers provided by ModemManager
-Version: @VERSION@
-Cflags: -I${includedir}/ModemManager
