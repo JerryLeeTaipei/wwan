@@ -8,7 +8,7 @@ LIBQMI_VERSION=1.28.6
 all: prepare libqmi libmbim ModemManager
 
 prepare:
-	sudo apt update; apt install -y git make autoconf autoconf-archive libtool build-essential autopoint libglib2.0-dev xsltproc gtk-doc-tools libgudev-1.0-dev libmbim-glib-dev gobject-introspection
+	sudo apt update; sudo apt install -y git make autoconf autoconf-archive libtool build-essential autopoint libglib2.0-dev xsltproc gtk-doc-tools libgudev-1.0-dev libmbim-glib-dev gobject-introspection
 	sudo systemctl stop ModemManager.service
 	sudo systemctl disable ModemManager.service
 	sudo apt purge libmbim-glib-dev llibmbim-glib-doc libmbim-glib4 libmbim-glib4-dbg libmbim-proxy libmbim-utils
